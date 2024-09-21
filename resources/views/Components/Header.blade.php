@@ -1,11 +1,11 @@
     
 <!--==================== Preloader Start ====================-->
- {{-- <div class="loader-mask">
+ <div class="loader-mask">
   <div class="loader">
       <div></div>
       <div></div>
   </div>
-</div> --}}
+</div>
 <!--==================== Preloader End ====================-->
 
 {{-- <!--==================== Overlay Start ====================-->
@@ -241,44 +241,20 @@
 
             <!-- Header Right start -->
             <div class="header-right flx-align">
-    <a href="cart.html" class="header-right__button cart-btn position-relative">
-        <img src="assets/images/icons/cart.svg" alt="" class="white-version">
-        <img src="assets/images/icons/cart-white.svg" alt="" class="dark-version">
-        <span class="qty-badge font-12">0</span>
-    </a>
-
+ 
      <!-- Light Dark Mode -->
  <div class="theme-switch-wrapper position-relative">
     <label class="theme-switch" for="checkbox">
         <input type="checkbox" class="d-none" id="checkbox">
         <span class="slider text-black header-right__button white-version">
-            <i class="fa-solid fa-sun text-white"></i>        </span>
+            <i class="fa-solid fa-sun text-black"></i>        </span>
         <span class="slider text-black header-right__button dark-version">
             <i class="fa-solid fa-moon text-white"></i>
         </span>
     </label>
 </div>
     
-    <div class="header-right__inner gap-3 flx-align d-lg-flex d-none">
-        
-    <a href="register.html" class="btn btn-main pill">
-        <span class="icon-left icon"> 
-            <img src="assets/images/icons/user.svg" alt="">
-        </span>Create Account  
-    </a>
-    <div class="language-select flx-align select-has-icon">
-        <img src="assets/images/icons/globe.svg" alt="" class="globe-icon white-version">
-        <img src="assets/images/icons/globe-white.svg" alt="" class="globe-icon dark-version">
-        <select class="select py-0 ps-2 border-0 fw-500">
-            <option value="1">Eng</option>
-            <option value="2">Bn</option>
-            <option value="3">Eur</option>
-            <option value="4">Urd</option>
-        </select>
-    </div>
-    </div>
-    <button type="button" class="toggle-mobileMenu d-lg-none"> <i class="las la-bars"></i> </button>
-</div>
+ 
             <!-- Header Right End  -->
         </nav>
     </div>
